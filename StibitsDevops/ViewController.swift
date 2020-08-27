@@ -18,6 +18,10 @@ class ViewController: UIViewController {
     func testAutoShedulePipelinePullRequest(){
         print("this function is about test running build pipeline each time a pull request is created")
     }
+    
+    func sonarCloudAutoScheduleAnalyzePullREquest(){
+        print("this is a test for teting if sonar cloud is appearing in the github UI")
+    }
 
 }
 
