@@ -42,8 +42,6 @@ class ViewController: UIViewController {
     func nothing(){
         print("fly to space")
     }
-    
-    
 
 }
 
