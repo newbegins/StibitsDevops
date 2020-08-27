@@ -31,6 +31,12 @@ class ViewController: UIViewController {
         else {
             print("false")
         }
+        if 1 == 1 {
+            print("true")
+        }
+        else {
+            print("false")
+        }
     }
 
 }
