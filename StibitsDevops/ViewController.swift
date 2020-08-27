@@ -22,6 +22,12 @@ class ViewController: UIViewController {
     func sonarCloudAutoScheduleAnalyzePullREquest(){
         print("this is a test for teting if sonar cloud is appearing in the github UI")
     }
+    
+    func addBugToTestSonarCloudAnalysis(){
+        if 1 == 1 {
+            print("true")
+        }
+    }
 
 }
 
