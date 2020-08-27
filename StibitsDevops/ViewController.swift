@@ -15,6 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    func testAutoShedulePipelinePullRequest(){
+        print("this function is about test running build pipeline each time a pull request is created")
+    }
 
 }
 
