@@ -38,6 +38,10 @@ class ViewController: UIViewController {
             print("false")
         }
     }
+    
+    func nothing(){
+        print("fly to space")
+    }
 
 }
 
