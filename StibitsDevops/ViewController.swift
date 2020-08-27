@@ -7,6 +7,7 @@
 //
 
 import UIKit
+let url = "http://www.testurl.com"
 
 class ViewController: UIViewController {
 
