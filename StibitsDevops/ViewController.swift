@@ -20,6 +20,7 @@ class ViewController: UIViewController {
             print("true")
         }
     }
+    func nothing(){}
 
 }
 
