@@ -7,6 +7,7 @@
 //
 
 import UIKit
+let url = "http://www.testurl.com"
 
 class ViewController: UIViewController {
 
@@ -27,6 +28,21 @@ class ViewController: UIViewController {
         if 1 == 1 {
             print("true")
         }
+        else {
+            print("false")
+        }
+        
+        if 1 == 1 {
+            print("true")
+        }
+        else {
+            print("false")
+        }
+        
+            }
+    
+    func nothing(){
+        print("fly to space")
     }
 
     
