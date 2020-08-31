@@ -34,7 +34,7 @@ class ViewController: UIViewController {
             }
     
     func nothing(){
-        print("fly to space")
+        print(" fly to space")
     }
     func nothing(){}
 
