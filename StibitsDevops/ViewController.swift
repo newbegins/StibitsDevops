@@ -21,7 +21,7 @@ class ViewController: UIViewController {
             print("true")
         }
         else {
-            print("false")
+            print(" false")
         }
         
         if 1 == 1 {
