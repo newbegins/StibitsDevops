@@ -18,6 +18,7 @@ class PipelinePRLunch: UIViewController {
     
     func lunchPipelineWithPRs(){
         print("this function is for lunch build pipeline, code signing and publich the app to the Appstore")
+        print("Another try")
     }
 
 }
