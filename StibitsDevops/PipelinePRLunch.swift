@@ -24,5 +24,9 @@ class PipelinePRLunch: UIViewController {
         print("this function is for lunch build pipeline, code signing and publich the app to the Appstore")
         print("Another try")
     }
+    
+    func testFaslaneSession(){
+        print("test faslane session")
+    }
 
 }
