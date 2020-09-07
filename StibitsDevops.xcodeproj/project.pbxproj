@@ -274,7 +274,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n*/StibitsDevops/scripts/update_build_number.sh\n\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n../StibitsDevops/scripts/update_build_number.sh\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
