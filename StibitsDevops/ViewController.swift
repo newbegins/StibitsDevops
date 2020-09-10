@@ -24,6 +24,9 @@ class ViewController: UIViewController {
         print("this is a test for teting if sonar cloud is appearing in the github UI")
     }
     
+    func checkOutDevBracheStagePullRequestTrigger(){
+        
+    }
     func addBugToTestSonarCloudAnalysis(){
         if 1 == 1 {
             print("true")
