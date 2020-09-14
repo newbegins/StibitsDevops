@@ -142,6 +142,7 @@
 				F289C9DE24F7B9050082B408 /* Frameworks */,
 				F289C9DF24F7B9050082B408 /* Resources */,
 				F2131CC325068FC7009ED525 /* ShellScript */,
+				F2DD7BF6250BB7DA0064952C /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -275,6 +276,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#!/bin/bash\n#echo \"Updating build number \"\n#branch=${1:-'master'}\n#buildNumber=$(expr $(git rev-list $branch --count) - $(git rev-list HEAD..$branch --count))\n#echo \"Updating build number to $buildNumber using branch '$branch'.\"\n#/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\n#if [ -f \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}.dSYM/Contents/Info.plist\" ]; then\n#/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}.dSYM/Contents/Info.plist\"\n#fi\n";
+		};
+		F2DD7BF6250BB7DA0064952C /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
