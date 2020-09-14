@@ -1,4 +1,5 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     CFPropertyList (3.0.2)
     activesupport (4.2.11.3)
@@ -38,7 +39,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  slather
+  slather!
 
 BUNDLED WITH
    2.1.4
