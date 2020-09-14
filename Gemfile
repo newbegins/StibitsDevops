@@ -1,1 +1,1 @@
-gem 'slather'
+gem 'slather', :source => 'https://rubygems.org'
