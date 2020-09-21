@@ -29,4 +29,11 @@ class PipelinePRLunch: UIViewController {
         print("test faslane session")
     }
     func sonar(){}
+    func conarSmells(){
+        print("test")
+        print("test")
+        print("test")
+        print("test")
+
+    }
 }
