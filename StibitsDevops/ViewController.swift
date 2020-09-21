@@ -47,6 +47,14 @@ class ViewController: UIViewController {
     func nothing(){
         print("fly to space")
     }
+    
+    func conarSmells(){
+        print("test")
+        print("test")
+        print("test")
+        print("test")
+
+    }
 
     
     
