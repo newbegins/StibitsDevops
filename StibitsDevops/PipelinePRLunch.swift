@@ -28,5 +28,5 @@ class PipelinePRLunch: UIViewController {
     func testFaslaneSession(){
         print("test faslane session")
     }
-
+    func sonar(){}
 }
